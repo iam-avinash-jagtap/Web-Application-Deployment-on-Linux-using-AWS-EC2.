@@ -1,4 +1,4 @@
-# 🚀 Web Application Deployment on Linux using AWS EC2.
+# Web Application Deployment on Linux using AWS EC2.
 
 ## 📌 Project Overview  
 This project demonstrates how to deploy a web application on an **AWS EC2 Linux instance** using the **httpd web server**. The setup includes launching an EC2 instance, installing Apache, configuring the firewall, and hosting a sample web application.  
@@ -32,7 +32,7 @@ Ensure you have the following:
 ## Step 2: Connect to the EC2 Instance
 Run the following command to connect to your EC2 instance:  
 
-`ssh -i your-key.pem ec2-user@your-instance-ip`
+                ssh -i your-key.pem ec2-user@your-instance-ip
 
 ## Step 3: Update and Install Apache (httpd)
 Run the following commands based on your Linux distribution:
